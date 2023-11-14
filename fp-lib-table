@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DCC-EX-Footprints")(type "KiCad")(uri "${KIPRJMOD}/DCC-EX-Footprints")(options "")(descr "DCC-EX Custom Footprints"))
+)
