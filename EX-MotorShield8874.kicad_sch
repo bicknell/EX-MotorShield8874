@@ -3997,6 +3997,9 @@
   (junction (at 157.48 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 017a689a-ff5e-4a93-a068-0b8cd1c2edd2)
   )
+  (junction (at 232.41 55.88) (diameter 0) (color 0 0 0 0)
+    (uuid 0289a003-936c-44f8-a3f1-9493e8484d86)
+  )
   (junction (at 161.29 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 12cb81a7-efa8-4765-8cc7-fe69a5f8ba4b)
   )
@@ -4248,6 +4251,10 @@
   (wire (pts (xy 46.99 154.94) (xy 50.8 154.94))
     (stroke (width 0) (type default))
     (uuid 5f8091f0-7981-4152-9444-7884591f5f56)
+  )
+  (wire (pts (xy 232.41 55.88) (xy 232.41 58.42))
+    (stroke (width 0) (type default))
+    (uuid 61bf6c00-4535-4a12-ba81-5010fa0ae5fd)
   )
   (wire (pts (xy 81.28 60.96) (xy 93.98 60.96))
     (stroke (width 0) (type solid))
@@ -4674,7 +4681,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 37b896f2-8c92-4547-a467-b5037b3f08ba)
   )
-  (label "trk2l" (at 243.84 200.66 0) (fields_autoplaced)
+  (label "trk2l" (at 243.84 205.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 38fe2bdf-7033-4765-99e5-274b483d535b)
   )
@@ -4722,7 +4729,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 586530f8-98a8-4d1c-8144-44bc240bc195)
   )
-  (label "trk1l" (at 243.84 149.86 0) (fields_autoplaced)
+  (label "trk1l" (at 243.84 154.94 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5b96aca6-9b0e-4597-aaae-5de236d0856a)
   )
@@ -4754,7 +4761,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6dbb6db3-dfbd-45b6-875a-bacbaf665317)
   )
-  (label "alt_sen_a" (at 134.62 165.1 0) (fields_autoplaced)
+  (label "alt_sen_a" (at 134.62 167.64 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6eebb5a2-ac94-4594-8d05-f8c3e64fe7a2)
   )
@@ -4862,7 +4869,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bb39f199-3440-4e03-a477-97f61c14cebd)
   )
-  (label "alt_sen_b" (at 134.62 170.18 0) (fields_autoplaced)
+  (label "alt_sen_b" (at 134.62 162.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bded02a8-815b-4dee-9c44-8b3168d28ca8)
   )
@@ -4874,7 +4881,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4075052-1609-47a7-b1e1-6f9e2727645f)
   )
-  (label "trk1r" (at 243.84 154.94 0) (fields_autoplaced)
+  (label "trk1r" (at 243.84 149.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4c7486a-c937-4d9d-abe5-21f2a2f16616)
   )
@@ -4894,11 +4901,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c8855c71-78c9-4e85-b754-942e266469b5)
   )
-  (label "trk2r" (at 243.84 205.74 0) (fields_autoplaced)
+  (label "trk2r" (at 243.84 200.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb5139fe-3173-4170-bda0-d398ffe939be)
   )
-  (label "def_sen_a" (at 134.62 162.56 0) (fields_autoplaced)
+  (label "def_sen_a" (at 134.62 170.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d0c43071-8825-465b-a28b-c21f83904b70)
   )
@@ -4934,7 +4941,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da7e225d-87ab-425b-9fbf-4508f59a9562)
   )
-  (label "def_sen_b" (at 134.62 167.64 0) (fields_autoplaced)
+  (label "def_sen_b" (at 134.62 165.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0b72f3b-a725-41d9-b737-423a79e3a04c)
   )
@@ -4974,7 +4981,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 57.15 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d71773)
-    (property "Reference" "J106" (at 57.15 43.18 0)
+    (property "Reference" "J101" (at 57.15 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Power" (at 59.69 53.34 90)
@@ -5015,7 +5022,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J106") (unit 1)
+          (reference "J101") (unit 1)
         )
       )
     )
@@ -5049,7 +5056,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 76.2 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72368)
-    (property "Reference" "J104" (at 76.2 38.1 0)
+    (property "Reference" "J103" (at 76.2 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital/PWM" (at 73.66 50.8 90)
@@ -5092,7 +5099,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J104") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
@@ -5126,7 +5133,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 57.15 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72f1c)
-    (property "Reference" "J110" (at 57.15 73.66 0)
+    (property "Reference" "J102" (at 57.15 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Analog" (at 59.69 81.28 90)
@@ -5165,7 +5172,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J110") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
@@ -5174,7 +5181,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 76.2 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d734d0)
-    (property "Reference" "J111" (at 76.2 73.66 0)
+    (property "Reference" "J104" (at 76.2 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital/PWM" (at 73.66 83.82 90)
@@ -5215,7 +5222,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J111") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -5501,7 +5508,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J101") (unit 1)
+          (reference "J109") (unit 1)
         )
       )
     )
@@ -5552,7 +5559,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J108") (unit 1)
+          (reference "J106") (unit 1)
         )
       )
     )
@@ -5633,7 +5640,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C101") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -5920,7 +5927,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J103") (unit 1)
+          (reference "J107") (unit 1)
         )
       )
     )
@@ -5999,7 +6006,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C103") (unit 1)
+          (reference "C104") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6074,7 +6081,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 179.07 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8498616e-a828-44fb-b7ff-f255babeb184)
-    (property "Reference" "J109" (at 185.42 73.66 0)
+    (property "Reference" "J108" (at 185.42 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB_B_Micro" (at 185.42 76.2 0)
@@ -6101,7 +6108,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J109") (unit 1)
+          (reference "J108") (unit 1)
         )
       )
     )
@@ -6259,7 +6266,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J107") (unit 1)
+          (reference "J110") (unit 1)
         )
       )
     )
@@ -6308,7 +6315,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C105") (unit 1)
+          (reference "C102") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6369,7 +6376,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J102") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -6378,7 +6385,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 240.03 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6640e43-cc90-4936-b8ea-51f2cdf21141)
-    (property "Reference" "J105" (at 241.3 39.37 0)
+    (property "Reference" "J111" (at 241.3 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "JTAG" (at 241.3 41.91 0)
@@ -6409,7 +6416,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J105") (unit 1)
+          (reference "J111") (unit 1)
         )
       )
     )
@@ -6518,7 +6525,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C104") (unit 1)
+          (reference "C101") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6633,7 +6640,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C102") (unit 1)
+          (reference "C103") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6772,6 +6779,36 @@
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R102") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 232.41 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e2d5f664-72b6-4e30-977a-6dcb8cbafd7b)
+    (property "Reference" "#PWR0137" (at 232.41 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 232.41 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 232.41 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 232.41 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24637888-1115-4149-b523-e66c057fd2e8))
+    (instances
+      (project "motor-shield"
+        (path "/0cbffc97-6856-4b34-94fa-39a0ff6f1c2b"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
+      (project "EX-MotorShield8874"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
