@@ -4974,7 +4974,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 57.15 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d71773)
-    (property "Reference" "J1" (at 57.15 43.18 0)
+    (property "Reference" "J106" (at 57.15 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Power" (at 59.69 53.34 90)
@@ -5015,7 +5015,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J1") (unit 1)
+          (reference "J106") (unit 1)
         )
       )
     )
@@ -5024,7 +5024,7 @@
   (symbol (lib_id "power:GND") (at 45.72 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d721e6)
-    (property "Reference" "#PWR04" (at 45.72 72.39 0)
+    (property "Reference" "#PWR0110" (at 45.72 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 69.85 0)
@@ -5040,7 +5040,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -5049,7 +5049,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 76.2 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72368)
-    (property "Reference" "J2" (at 76.2 38.1 0)
+    (property "Reference" "J104" (at 76.2 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital/PWM" (at 73.66 50.8 90)
@@ -5092,7 +5092,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J2") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -5101,7 +5101,7 @@
   (symbol (lib_id "power:GND") (at 83.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72a3d)
-    (property "Reference" "#PWR05" (at 83.82 72.39 0)
+    (property "Reference" "#PWR0111" (at 83.82 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 69.85 0)
@@ -5117,7 +5117,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -5126,7 +5126,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 57.15 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72f1c)
-    (property "Reference" "J3" (at 57.15 73.66 0)
+    (property "Reference" "J110" (at 57.15 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Analog" (at 59.69 81.28 90)
@@ -5165,7 +5165,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J3") (unit 1)
+          (reference "J110") (unit 1)
         )
       )
     )
@@ -5174,7 +5174,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 76.2 83.82 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d734d0)
-    (property "Reference" "J4" (at 76.2 73.66 0)
+    (property "Reference" "J111" (at 76.2 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Digital/PWM" (at 73.66 83.82 90)
@@ -5215,7 +5215,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J4") (unit 1)
+          (reference "J111") (unit 1)
         )
       )
     )
@@ -5250,7 +5250,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -5280,7 +5280,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -5310,7 +5310,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -5340,7 +5340,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -5392,7 +5392,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R13") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -5422,7 +5422,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -5452,7 +5452,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -5501,7 +5501,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J13") (unit 1)
+          (reference "J101") (unit 1)
         )
       )
     )
@@ -5552,7 +5552,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J12") (unit 1)
+          (reference "J108") (unit 1)
         )
       )
     )
@@ -5633,7 +5633,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C13") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -5666,7 +5666,7 @@
           (reference "#PWR0201") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -5675,10 +5675,10 @@
   (symbol (lib_id "PCM_Espressif:ESP32-S2-MINI-1") (at 101.6 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 415466a5-8161-4bfd-86b8-106b02544685)
-    (property "Reference" "U52" (at 103.7941 132.08 0)
+    (property "Reference" "U101" (at 103.7941 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ESP32-S2-MINI-1" (at 103.7941 134.62 0)
+    (property "Value" "ESP32-S2-MINI-2" (at 103.7941 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "PCM_Espressif:ESP32-S2-MINI-1" (at 101.6 231.14 0)
@@ -5687,13 +5687,22 @@
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf" (at 104.14 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "" (at 101.6 177.8 0)
+    (property "MPN" "ESP32-S2-MINI-2-N4" (at 101.6 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "" (at 101.6 177.8 0)
+    (property "Manufacturer" "Espressif" (at 101.6 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Substitute" "" (at 101.6 177.8 0)
+    (property "Substitute" "No" (at 101.6 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "ESP32-S2-MINI-2-N4 Module" (at 101.6 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C3013906" (at 101.6 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "rohs_cert_or_in_datasheet" "y" (at 101.6 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "58" (uuid 30756f3d-bec2-4fd4-ae37-316176f9d89d))
@@ -5764,7 +5773,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "U52") (unit 1)
+          (reference "U101") (unit 1)
         )
       )
     )
@@ -5794,7 +5803,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -5824,7 +5833,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -5854,7 +5863,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -5872,7 +5881,7 @@
     (property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (at 177.8 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 177.8 49.53 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_JST-SM04B-SRSS-TB-LF-SN_C160404.pdf" (at 177.8 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C160404" (at 177.8 49.53 0)
@@ -5911,7 +5920,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J14") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
@@ -5941,7 +5950,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -5990,7 +5999,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C101") (unit 1)
+          (reference "C103") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6026,7 +6035,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -6056,7 +6065,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -6065,7 +6074,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 179.07 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8498616e-a828-44fb-b7ff-f255babeb184)
-    (property "Reference" "J101" (at 185.42 73.66 0)
+    (property "Reference" "J109" (at 185.42 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB_B_Micro" (at 185.42 76.2 0)
@@ -6074,7 +6083,13 @@
     (property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001" (at 175.26 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 175.26 76.2 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_MOLEX-1050170001_C136000.pdf" (at 175.26 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "USB 2.0 1 Surface Mount 5P Female -30℃~+85℃ Micro-B SMD USB Connectors ROHS" (at 179.07 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C136000" (at 179.07 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "6" (uuid a268c1c3-e35a-4b74-b751-3714aecd9555))
@@ -6086,7 +6101,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J101") (unit 1)
+          (reference "J109") (unit 1)
         )
       )
     )
@@ -6116,7 +6131,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -6149,7 +6164,7 @@
           (reference "#PWR0201") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -6158,7 +6173,7 @@
   (symbol (lib_id "Device:LED_Dual_AAKK") (at 279.4 154.305 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf34235-b88a-4009-a4c2-7a1b5fa9f57c)
-    (property "Reference" "D54" (at 279.4 147.955 0)
+    (property "Reference" "D101" (at 279.4 147.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18-225A" (at 279.4 160.02 0)
@@ -6195,7 +6210,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D54") (unit 1)
+          (reference "D101") (unit 1)
         )
       )
     )
@@ -6244,7 +6259,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J15") (unit 1)
+          (reference "J107") (unit 1)
         )
       )
     )
@@ -6293,7 +6308,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C104") (unit 1)
+          (reference "C105") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6354,7 +6369,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J11") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
@@ -6363,7 +6378,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 240.03 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6640e43-cc90-4936-b8ea-51f2cdf21141)
-    (property "Reference" "J102" (at 241.3 39.37 0)
+    (property "Reference" "J105" (at 241.3 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "JTAG" (at 241.3 41.91 0)
@@ -6372,7 +6387,13 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (at 240.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 240.03 50.8 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DZ254R-22-10-63_C2935920.pdf" (at 240.03 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "3A Straight Square Pins 2.54mm 10P 6mm 3mm 2.54mm 双排 2.54mm 2x5P Plugin,P=2.54mm Pin Headers ROHS" (at 240.03 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C2935920" (at 240.03 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid 47ca54c0-8553-477a-912b-70544718bf29))
@@ -6388,7 +6409,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J102") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -6418,7 +6439,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -6448,7 +6469,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -6497,7 +6518,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C103") (unit 1)
+          (reference "C104") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/fa2ff518-4097-4d36-81d9-67cd6f2fe7e8"
           (reference "C303") (unit 1)
@@ -6533,7 +6554,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -6563,7 +6584,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -6633,10 +6654,16 @@
     (property "Value" "40Mhz" (at 50.8 152.4 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" (at 50.8 148.59 0)
+    (property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" (at 50.8 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 148.59 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110101030_Shenzhen-SCTF-Elec-SX5B40-000F2020F30_C2901643.pdf" (at 50.8 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "40MHz 20pF ±20ppm SMD5032-4P Crystals ROHS" (at 50.8 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC Part #" "C2901643" (at 50.8 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1eb624d8-4873-496b-9a8f-cf03bb738663))
@@ -6655,7 +6682,7 @@
   (symbol (lib_id "Device:LED_Dual_AAKK") (at 280.67 205.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbe1c9fc-a56d-4fcb-b2b6-1cf12414a486)
-    (property "Reference" "D55" (at 280.67 198.755 0)
+    (property "Reference" "D102" (at 280.67 198.755 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "18-225A" (at 280.67 210.82 0)
@@ -6692,7 +6719,7 @@
     (instances
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D55") (unit 1)
+          (reference "D102") (unit 1)
         )
       )
     )
@@ -6744,7 +6771,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R14") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -6793,7 +6820,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "SW102") (unit 1)
+          (reference "SW101") (unit 1)
         )
       )
     )
@@ -6823,7 +6850,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )

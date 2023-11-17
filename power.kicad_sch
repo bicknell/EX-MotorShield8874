@@ -3506,7 +3506,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -3585,7 +3585,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -3697,7 +3697,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR053") (unit 1)
@@ -3856,7 +3856,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#FLG0205") (unit 1)
+          (reference "#FLG0203") (unit 1)
         )
       )
     )
@@ -4033,7 +4033,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R203") (unit 1)
+          (reference "R202") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R55") (unit 1)
@@ -4054,7 +4054,7 @@
     (property "Footprint" "DCC-EX-Footprints:DC-S050-200" (at 35.56 48.006 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 35.56 48.006 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201121730_DEALON-DC-S050-200_C2936010.pdf" (at 35.56 48.006 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part #" "C2936010" (at 34.29 46.99 0)
@@ -4313,7 +4313,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -4343,7 +4343,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -4436,7 +4436,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "R202") (unit 1)
+          (reference "R203") (unit 1)
         )
       )
     )
@@ -4466,7 +4466,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -4496,7 +4496,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -4526,7 +4526,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -4607,7 +4607,7 @@
       )
       (project "EX-MotorShield8874"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0e7b2dd9-9964-452e-aea9-a5407953fde9"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
